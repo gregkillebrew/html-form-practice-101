@@ -1,0 +1,63 @@
+body{
+    background-image: url("map.jpg");
+    background-position: center;
+}
+
+.Name_Box{
+    border-style: solid dotted;
+    text-align: center;
+}
+
+.Email_Box{
+    border-style: solid dotted;
+    text-align: center;
+}
+
+.how_hear{
+    border-style: solid dotted;
+    text-align: center;
+}
+
+.Comment_Box{
+    border-style: solid dotted;
+    text-align: center;
+}
+
+.Yes_No{
+    border-style: solid dotted;
+    text-align: center;
+}
+
+.Birthday_Box{
+    text-align: center;
+    border-style: groove;
+
+}
+
+
+@media(max-width:576px){
+
+    
+    body{
+        background-color: rgb(179,179,187);
+        background-image: url("road.jpg");
+        }
+    h3{
+        color: aliceblue;
+    }   
+    label{
+        color: aliceblue;
+    }
+}
+
+@media(min-width:992px){
+
+    body{
+        background-color: rgb(179,179,187);
+        background-image: url("map.jpg");
+        }
+    h3{
+        color: black;
+    }
+}
+
